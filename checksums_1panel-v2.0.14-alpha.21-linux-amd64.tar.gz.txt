@@ -1,0 +1,4 @@
+d10a285a91c5f97994f76c1065713831edf07a7d924e533cd6e3625b284e5479  1panel-v2.0.14-alpha.21-linux-amd64.tar.gz
+
+https://resource.fit2cloud.com/1panel/package/v2/dev/v2.0.14-alpha.21/release/1panel-v2.0.14-alpha.21-linux-s390x.tar.gz
+https://resource.fit2cloud.com/1panel/package/v2/${INSTALL_MODE}/${VERSION}/release/${package_file_name}
