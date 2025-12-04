@@ -84,7 +84,49 @@ Please refer to our [documentation](https://docs.1panel.pro/quick_start/) for mo
 > 安装成功后，可使用 1pctl 命令行工具来维护 1Panel
 ## 离线版
 
+> 请下载最新的 1Panel 离线包，上传至服务器 /tmp 目录，并以 root 用户 执行以下命令进行安装准备：
+> ```bash
+> cd /tmp
+> # 解压离线包（请将示例文件名替换为实际名称）
+> tar zxvf 1panel-v2.0.11-offline-linux-amd64.tar.gz
+> ```
 
+> 执行安装脚本
+> ```bash
+> # 进入解压目录（请根据实际目录名替换）
+> cd 1panel-v2.0.11-offline-linux-amd64
+> 
+> # 执行安装脚本
+> /bin/bash install.sh
+> ```
+
+> 升级版本：解压离线包
+> 
+> 请下载最新的 1Panel 离线包，上传至服务器 /tmp 目录，并以 root 用户 执行以下命令进行升级准备：
+> ```bash
+> cd /tmp
+> # 解压离线包（请将示例文件名替换为实际名称）
+> tar zxvf 1panel-v2.0.12-offline-linux-amd64.tar.gz
+> ```
+
+> 执行升级脚本
+> ```bash
+> # 进入解压目录（请根据实际目录名替换）
+> cd 1panel-v2.0.12-offline-linux-amd64
+> 
+> # 执行升级脚本
+> /bin/bash upgrade.sh
+> ```
+
+> 登录访问
+> 安装成功后，控制台会打印面板访问信息，可通过浏览器访问 1Panel：
+> ```bash
+> http://目标服务器 IP 地址:目标端口/安全入口
+> ```
+> - 如果使用的是云服务器，请在安全组中开放对应的目标端口
+> - ssh 登录 1Panel 服务器后，执行 1pctl user-info 命令可获取安全入口（entrance）
+
+> 安装成功后，可使用 1pctl 命令行工具来维护 1Panel
 
 ## Screenshot
 
