@@ -50,6 +50,17 @@ curl -sSL https://resource.1panel.pro/quick_start.sh -o quick_start.sh && bash q
 Please refer to our [documentation](https://docs.1panel.pro/quick_start/) for more details.
 
 中国用户请使用这个 [安装脚本](https://1panel.cn/docs/installation/online_installation/)，其应用数量比国际版本更丰富。
+```bash
+bash -c "$(curl -sSL https://resource.fit2cloud.com/1panel/package/v2/quick_start.sh)"
+```
+
+## 在线安装发布版压缩包
+- `[[ ${INSTALL_MODE} != "dev" && ${INSTALL_MODE} != "beta" && ${INSTALL_MODE} != "stable" ]]`
+- `INSTALL_MODE="stable"`
+- `VERSION=$(curl -s https://resource.fit2cloud.com/1panel/package/v2/stable/latest)`
+- `HASH_FILE_URL="https://resource.fit2cloud.com/1panel/package/v2/stable/v2.0.16/release/checksums.txt"`
+- `package_file_name="1panel-v2.0.16-linux-amd64.tar.gz"`
+- `package_download_url="https://resource.fit2cloud.com/1panel/package/v2/stable/v2.0.16/release/1panel-v2.0.16-linux-amd64.tar.gz}"`
 
 ## 在线安装
 
